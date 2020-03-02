@@ -22,6 +22,22 @@ class MainPage extends React.Component {
                         </CustomLink>
                     </ul>
                 </div>
+                <div className={styles.description}>
+                    <h2> Practical Tasks </h2>
+                </div>
+                <div>
+                    <ul className={styles.list}>
+                        <CustomLink path='/practical/task1'>
+                            Отличие localStorage от sessionStorage? Написать функции для работы со storage
+                        </CustomLink>
+                        <CustomLink path='/practical/task2'>
+                            Написать функции чтения/записи/очистки кук на VanillaJS.
+                        </CustomLink>
+                        <CustomLink path='/practical/task3'>
+                            Реализовать пример делегирование событий на VanillaJS и ReactJS.
+                        </CustomLink>
+                    </ul>
+                </div>
             </div>
         );
     }
