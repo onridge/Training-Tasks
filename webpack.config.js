@@ -2,7 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-    entry: path.resolve(__dirname, 'practicalTasks/delegationEvent/ReactJS/index'),
+    entry: path.resolve(__dirname, 'src/index'),
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'bundle.js'
@@ -10,7 +10,7 @@ module.exports = {
     module: {
         rules: [{
             test: /\.js$/,
-            include: path.resolve(__dirname, 'practicalTasks/delegationEvent/ReactJS'),
+            include: path.resolve(__dirname, 'src'),
             use: ['babel-loader']
         }],
     },
@@ -20,7 +20,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: "practicalTasks/delegationEvent/ReactJS/public/index.html"
+            template: "public/index.html"
         })
     ]
 };
