@@ -1,14 +1,11 @@
 import React from 'react';
 import ReactDom from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
+import App from './components/App';
 
-class App extends React.Component{
-    render() {
-        return (
-            <div>
-                Tasks
-            </div>
-        )
-    }
-}
-
-ReactDom.render(<App/>, document.getElementById('root'));
+ReactDom.render(
+    <BrowserRouter>
+        <App />
+    </BrowserRouter>,
+    document.getElementById('root')
+);
