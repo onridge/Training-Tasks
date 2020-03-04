@@ -36,6 +36,9 @@ class MainPage extends React.Component {
                         <CustomLink path='/practical/task3'>
                             Реализовать пример делегирование событий на VanillaJS и ReactJS.
                         </CustomLink>
+                        <CustomLink path='/practical/task4'>
+                            Есть 2 массива целый чисел (внутри одного массива все элементы уникальные). Нужно найти кол-во пересечений (одинаковых) элементов в массивах.
+                        </CustomLink>
                     </ul>
                 </div>
             </div>
