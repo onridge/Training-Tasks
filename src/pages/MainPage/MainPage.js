@@ -20,6 +20,21 @@ class MainPage extends React.Component {
                         <CustomLink path='/git/task3'>
                             GIT. Как отменить коммит? Как объединить коммиты в один?
                         </CustomLink>
+                        <CustomLink path='/git/task4'>
+                            GIT. Как смотреть историю коммитов?
+                        </CustomLink>
+                        <CustomLink path='/git/task5'>
+                            GIT. Как временно убрать изменения в git?
+                        </CustomLink>
+                        <CustomLink path='/network/task1'>
+                            Отличия get запроса от post?
+                        </CustomLink>
+                        <CustomLink path='/js/task1'>
+                            Как сравнить объекты в js? Один из самых простых способов? Какое сравнение реализовано в PureComponent?
+                        </CustomLink>
+                        <CustomLink path='/react/task1'>
+                            Как можно управлять обновлением компонента в React?
+                        </CustomLink>
                     </ul>
                 </div>
                 <div className={styles.description}>
