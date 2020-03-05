@@ -35,6 +35,18 @@ class MainPage extends React.Component {
                         <CustomLink path='/react/task1'>
                             Как можно управлять обновлением компонента в React?
                         </CustomLink>
+                        <CustomLink path='/patterns/task1'>
+                            Паттерны и подходы
+                        </CustomLink>
+                        <CustomLink path='/patterns/task2'>
+                            Как реализовать синглетон?
+                        </CustomLink>
+                        <CustomLink path='/patterns/task3'>
+                            Используешь паттерн декоратор?
+                        </CustomLink>
+                        <CustomLink path='/patterns/task4'>
+                            Что такое DI и IoC?
+                        </CustomLink>
                     </ul>
                 </div>
                 <div className={styles.description}>
