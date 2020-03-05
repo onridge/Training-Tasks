@@ -7,6 +7,7 @@ import Task3 from "../pages/TheoreticalTasks/Task3/Task3";
 import Storage from "../pages/practicalTasks/Storage/Storage";
 import cookiesCRD from "../pages/practicalTasks/CookiesCRD/cookiesCRD";
 import DelegationEvent from "../pages/practicalTasks/DelegationEvent/DelegationEvent";
+import IntersectionArray from "../pages/practicalTasks/intersectionArray/IntersectionArray";
 
 function Routes() {
     return(
@@ -18,6 +19,7 @@ function Routes() {
             <Route exact path='/practical/task1' component={Storage} />
             <Route exact path='/practical/task2' component={cookiesCRD} />
             <Route exact path='/practical/task3' component={DelegationEvent} />
+            <Route exact path='/practical/task4' component={IntersectionArray} />
         </Switch>
     )
 }
