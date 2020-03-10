@@ -47,6 +47,18 @@ class MainPage extends React.Component {
                         <CustomLink path='/patterns/task4'>
                             Что такое DI и IoC?
                         </CustomLink>
+                        <CustomLink path='/react/task2'>
+                            Как можно организовать связь между компонентами на одном уровне?
+                        </CustomLink>
+                        <CustomLink path='/js/task2'>
+                            Как обмениваться информацией между вкладками?
+                        </CustomLink>
+                        <CustomLink path='/js/task3'>
+                            Что такое критический путь рендринга?
+                        </CustomLink>
+                        <CustomLink path='/js/task4'>
+                            Есть ли разница в 2-х записях?
+                        </CustomLink>
                     </ul>
                 </div>
                 <div className={styles.description}>
