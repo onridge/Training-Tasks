@@ -59,6 +59,15 @@ class MainPage extends React.Component {
                         <CustomLink path='/js/task4'>
                             Есть ли разница в 2-х записях?
                         </CustomLink>
+                        <CustomLink path='/js/task5'>
+                            Разница между script, script async и script defer?
+                        </CustomLink>
+                        <CustomLink path='/git/task6'>
+                            GIT. Что такое gitflow? что значит работать по gitflow?
+                        </CustomLink>
+                        <CustomLink path='/network/task2'>
+                            Способы отправки данных на сервер?
+                        </CustomLink>
                     </ul>
                 </div>
                 <div className={styles.description}>
@@ -77,6 +86,9 @@ class MainPage extends React.Component {
                         </CustomLink>
                         <CustomLink path='/practical/task4'>
                             Есть 2 массива целый чисел (внутри одного массива все элементы уникальные). Нужно найти кол-во пересечений (одинаковых) элементов в массивах.
+                        </CustomLink>
+                        <CustomLink path='/practical/task5'>
+                            Как нарисовать треугольник на css?
                         </CustomLink>
                     </ul>
                 </div>

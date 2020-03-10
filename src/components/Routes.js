@@ -6,7 +6,9 @@ import Task2 from "../pages/TheoreticalTasks/GIT/Task2/Task2";
 import Task3 from "../pages/TheoreticalTasks/GIT/Task3/Task3";
 import Task4 from "../pages/TheoreticalTasks/GIT/Task4/Task4";
 import Task5 from "../pages/TheoreticalTasks/GIT/Task5/Task5";
+import Task6 from "../pages/TheoreticalTasks/GIT/Task6/Task6";
 import NetworkTask1 from "../pages/TheoreticalTasks/Network/NetworkTask1/NetworkTask1";
+import NetworkTask2 from "../pages/TheoreticalTasks/Network/NetworkTask2/NetworkTask2";
 import JSTask1 from "../pages/TheoreticalTasks/JS/JSTask1/JSTask1";
 import ReactTask1 from "../pages/TheoreticalTasks/React/ReactTask1/ReactTask1";
 import ReactTask2 from "../pages/TheoreticalTasks/React/ReactTask2/ReactTask2";
@@ -17,10 +19,12 @@ import PatternTask1 from "../pages/TheoreticalTasks/Patterns/PatternsTask1/Patte
 import PatternTask2 from "../pages/TheoreticalTasks/Patterns/PatternsTask2/PatternsTask2";
 import PatternTask3 from "../pages/TheoreticalTasks/Patterns/PatternsTask3/PatternsTask3";
 import PatternTask4 from "../pages/TheoreticalTasks/Patterns/PatternsTask4/PatternsTask4";
+import JSTask5 from "../pages/TheoreticalTasks/JS/JSTask5/JSTask5";
 import Storage from "../pages/practicalTasks/Storage/Storage";
 import cookiesCRD from "../pages/practicalTasks/CookiesCRD/cookiesCRD";
 import DelegationEvent from "../pages/practicalTasks/DelegationEvent/DelegationEvent";
 import IntersectionArray from "../pages/practicalTasks/intersectionArray/IntersectionArray";
+import TriangleCss from "../pages/practicalTasks/TriangleCss/TriangleCss";
 
 function Routes() {
     return(
@@ -31,7 +35,9 @@ function Routes() {
             <Route exact path='/git/task3' component={Task3}/>
             <Route exact path='/git/task4' component={Task4}/>
             <Route exact path='/git/task5' component={Task5}/>
+            <Route exact path='/git/task6' component={Task6}/>
             <Route exact path='/network/task1' component={NetworkTask1}/>
+            <Route exact path='/network/task2' component={NetworkTask2}/>
             <Route exact path='/js/task1' component={JSTask1}/>
             <Route exact path='/react/task1' component={ReactTask1}/>
             <Route exact path='/patterns/task1' component={PatternTask1}/>
@@ -42,10 +48,12 @@ function Routes() {
             <Route exact path='/js/task2' component={JSTask2}/>
             <Route exact path='/js/task3' component={JSTask3}/>
             <Route exact path='/js/task4' component={JSTask4}/>
+            <Route exact path='/js/task5' component={JSTask5}/>
             <Route exact path='/practical/task1' component={Storage} />
             <Route exact path='/practical/task2' component={cookiesCRD} />
             <Route exact path='/practical/task3' component={DelegationEvent} />
             <Route exact path='/practical/task4' component={IntersectionArray} />
+            <Route exact path='/practical/task5' component={TriangleCss} />
         </Switch>
     )
 }
