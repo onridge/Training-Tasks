@@ -1,0 +1,4 @@
+.triangle {
+    border: 100px solid transparent;
+    border-right: 100px solid green;
+}
