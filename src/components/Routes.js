@@ -20,6 +20,11 @@ import PatternTask2 from "../pages/TheoreticalTasks/Patterns/PatternsTask2/Patte
 import PatternTask3 from "../pages/TheoreticalTasks/Patterns/PatternsTask3/PatternsTask3";
 import PatternTask4 from "../pages/TheoreticalTasks/Patterns/PatternsTask4/PatternsTask4";
 import JSTask5 from "../pages/TheoreticalTasks/JS/JSTask5/JSTask5";
+import Task7 from "../pages/TheoreticalTasks/GIT/Task7/Task7";
+import JSTask6 from "../pages/TheoreticalTasks/JS/JSTask6/JSTask6";
+import JSTask7 from "../pages/TheoreticalTasks/JS/JSTask7/JSTask7";
+import JSTask8 from "../pages/TheoreticalTasks/JS/JSTask8/JSTask8";
+import JSTask9 from "../pages/TheoreticalTasks/JS/JSTask9/JSTask9";
 import Storage from "../pages/practicalTasks/Storage/Storage";
 import cookiesCRD from "../pages/practicalTasks/CookiesCRD/cookiesCRD";
 import DelegationEvent from "../pages/practicalTasks/DelegationEvent/DelegationEvent";
@@ -49,6 +54,11 @@ function Routes() {
             <Route exact path='/js/task3' component={JSTask3}/>
             <Route exact path='/js/task4' component={JSTask4}/>
             <Route exact path='/js/task5' component={JSTask5}/>
+            <Route exact path='/git/task7' component={Task7}/>
+            <Route exact path='/js/task6' component={JSTask6}/>
+            <Route exact path='/js/task7' component={JSTask7}/>
+            <Route exact path='/js/task8' component={JSTask8}/>
+            <Route exact path='/js/task9' component={JSTask9}/>
             <Route exact path='/practical/task1' component={Storage} />
             <Route exact path='/practical/task2' component={cookiesCRD} />
             <Route exact path='/practical/task3' component={DelegationEvent} />
