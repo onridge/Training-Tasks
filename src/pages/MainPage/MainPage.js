@@ -68,6 +68,21 @@ class MainPage extends React.Component {
                         <CustomLink path='/network/task2'>
                             Способы отправки данных на сервер?
                         </CustomLink>
+                        <CustomLink path='/git/task7'>
+                            GIT. Как обновить ветку? Варианты и их отличия.
+                        </CustomLink>
+                        <CustomLink path='/js/task6'>
+                            Для чего используют Object.create(null)? Что делает эта команда?
+                        </CustomLink>
+                        <CustomLink path='/js/task7'>
+                            Как реализовано наследование в JS? отличия от других языков?
+                        </CustomLink>
+                        <CustomLink path='/js/task8'>
+                            Общие вопросы
+                        </CustomLink>
+                        <CustomLink path='/js/task9'>
+                            Пример функции-конструктор с приватным, публичным и статическим свойством.
+                        </CustomLink>
                     </ul>
                 </div>
                 <div className={styles.description}>
