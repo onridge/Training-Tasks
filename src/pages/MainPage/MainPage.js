@@ -83,6 +83,15 @@ class MainPage extends React.Component {
                         <CustomLink path='/js/task9'>
                             Пример функции-конструктор с приватным, публичным и статическим свойством.
                         </CustomLink>
+                        <CustomLink path='/js/task10'>
+                            Полифилы
+                        </CustomLink>
+                        <CustomLink path='/network/task3'>
+                            Написать функцию, которая делает запрос на сервер и в случае неуспеха повторяет его
+                        </CustomLink>
+                        <CustomLink path='/js/task11'>
+                            Throttle-debounce
+                        </CustomLink>
                     </ul>
                 </div>
                 <div className={styles.description}>
@@ -104,6 +113,12 @@ class MainPage extends React.Component {
                         </CustomLink>
                         <CustomLink path='/practical/task5'>
                             Как нарисовать треугольник на css?
+                        </CustomLink>
+                        <CustomLink path='/practical/task6'>
+                            Написать функцию, которая проверяет баланс скобок в строке - всем открывающим скобкам соответствуют закрывающиемся.
+                        </CustomLink>
+                        <CustomLink path='/practical/task7'>
+                            Написать функцию, определяющую является ли массив чисел монотонным.
                         </CustomLink>
                     </ul>
                 </div>
