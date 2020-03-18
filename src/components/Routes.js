@@ -28,6 +28,7 @@ import JSTask8 from "../pages/TheoreticalTasks/JS/JSTask8/JSTask8";
 import JSTask9 from "../pages/TheoreticalTasks/JS/JSTask9/JSTask9";
 import JSTask10 from "../pages/TheoreticalTasks/JS/JSTask10/JSTask10";
 import JSTask11 from "../pages/TheoreticalTasks/JS/JSTask11/JSTask11";
+import JSTask12 from "../pages/TheoreticalTasks/JS/JSTask12/JSTask12";
 import Storage from "../pages/practicalTasks/Storage/Storage";
 import cookiesCRD from "../pages/practicalTasks/CookiesCRD/cookiesCRD";
 import DelegationEvent from "../pages/practicalTasks/DelegationEvent/DelegationEvent";
@@ -35,6 +36,9 @@ import IntersectionArray from "../pages/practicalTasks/intersectionArray/Interse
 import TriangleCss from "../pages/practicalTasks/TriangleCss/TriangleCss";
 import ValidatingBrackets from "../pages/practicalTasks/ValidatingBrackets/ValidatingBrackets";
 import MonotoneArray from "../pages/practicalTasks/MonotoneArray/MonotoneArray";
+import SearchAnagram from "../pages/practicalTasks/SearchAnagram/SearchAnagram";
+import GetNestedObject from "../pages/practicalTasks/GetNestedObject/GetNestedObject";
+import NumbersFibonacci from "../pages/practicalTasks/NumbersFibonacci/NumbersFibonacci";
 
 function Routes() {
     return(
@@ -67,6 +71,7 @@ function Routes() {
             <Route exact path='/js/task9' component={JSTask9}/>
             <Route exact path='/js/task10' component={JSTask10}/>
             <Route exact path='/js/task11' component={JSTask11}/>
+            <Route exact path='/js/task12' component={JSTask12}/>
             <Route exact path='/practical/task1' component={Storage} />
             <Route exact path='/practical/task2' component={cookiesCRD} />
             <Route exact path='/practical/task3' component={DelegationEvent} />
@@ -74,6 +79,9 @@ function Routes() {
             <Route exact path='/practical/task5' component={TriangleCss} />
             <Route exact path='/practical/task6' component={ValidatingBrackets} />
             <Route exact path='/practical/task7' component={MonotoneArray} />
+            <Route exact path='/practical/task8' component={SearchAnagram} />
+            <Route exact path='/practical/task9' component={GetNestedObject} />
+            <Route exact path='/practical/task10' component={NumbersFibonacci} />
         </Switch>
     )
 }

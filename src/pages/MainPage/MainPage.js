@@ -92,6 +92,9 @@ class MainPage extends React.Component {
                         <CustomLink path='/js/task11'>
                             Throttle-debounce
                         </CustomLink>
+                        <CustomLink path='/js/task12'>
+                            Повернуть массив на 90 градусов
+                        </CustomLink>
                     </ul>
                 </div>
                 <div className={styles.description}>
@@ -119,6 +122,15 @@ class MainPage extends React.Component {
                         </CustomLink>
                         <CustomLink path='/practical/task7'>
                             Написать функцию, определяющую является ли массив чисел монотонным.
+                        </CustomLink>
+                        <CustomLink path='/practical/task8'>
+                            Написать программу для поиска анаграмм.
+                        </CustomLink>
+                        <CustomLink path='/practical/task9'>
+                            Напишите функцию которая на вход принимает аргумент "a.b.c.d", а на выходе возвращает вложенный объект.
+                        </CustomLink>
+                        <CustomLink path='/practical/task10'>
+                            Числа Фиббоначи, вывести последовательность fib(previous, next, count)
                         </CustomLink>
                     </ul>
                 </div>
